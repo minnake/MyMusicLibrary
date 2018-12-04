@@ -1,6 +1,4 @@
-# MyMusicLibrary
-
-Musical Structure App 
+# Musical Structure App 
 
 Project Overview 
 

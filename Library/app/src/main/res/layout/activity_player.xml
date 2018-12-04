@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/list_style"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentBottom="true">
+
+        <SeekBar
+            android:id="@+id/positionBar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/playerLayout"/>
+
+        <LinearLayout
+            android:id="@+id/playerLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/volumeLayout"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/playBtn"
+                style="@style/play_button_style"
+                android:background="@drawable/ic_play_circle_outline_black_24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/volumeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/player_button_style"
+                android:src="@drawable/ic_volume_down_black_24dp" />
+
+            <SeekBar
+                android:id="@+id/volumeBar"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:progress="50" />
+
+            <ImageView
+                style="@style/player_button_style"
+                android:src="@drawable/ic_volume_up_black_24dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

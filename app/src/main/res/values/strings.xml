@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">My Music Library</string>
+
+    <!-- Category names -->
+    <string name="category_library">Library</string>
+    <string name="category_play">Play</string>
+    <string name="category_shop">Shop</string>
+
+    <!-- Rammstein Mutter album -->
+    <string name="artists_name01">Rammstein</string>
+    <string name="album_name01">Mutter</string>
+
+    <string name="song_name01">Mein Herz brennt</string>
+    <string name="song_name02">Links 2 3 4</string>
+    <string name="song_name03">Sonne</string>
+    <string name="song_name04">Ich Will</string>
+    <string name="song_name05">Feuer frei!</string>
+    <string name="song_name06">Mutter</string>
+    <string name="song_name07">Spieluhr</string>
+    <string name="song_name08">Zwitter</string>
+    <string name="song_name09">Rein raus</string>
+    <string name="song_name10">Adios</string>
+    <string name="song_name11">Nebel</string>
+
+    <string name="now_playing">Now Playing:   \n\nSong: Mutter    \nArtist: Rammstein   \nAlbum: Mutter</string>
+
+</resources>

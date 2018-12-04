@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/list_style" />
+
+    <TextView
+        android:id="@+id/item_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/shop_btn"
+        style="@style/Shop_buttons"
+        android:background="@drawable/ic_shopping_cart_black_24dp"
+       android:layout_marginLeft="10dp"
+        android:layout_above="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check cart"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
